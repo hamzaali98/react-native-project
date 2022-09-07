@@ -20,9 +20,9 @@ const App: () => Node = () => {
       </View>
       <View style={[styles.container, styles.secondContainer]}>
         <View style={{flex: 0.8}} />
-        <Box color={'black'} number={1} />
+        <Box color={'black'} number={3} />
         <Box color={'yellow'} number={2} />
-        <Box color={'red'} number={3} />
+        <Box color={'red'} number={1} />
       </View>
     </SafeAreaView>
   );
